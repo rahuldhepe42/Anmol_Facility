@@ -1,38 +1,473 @@
-.App {
-  text-align: center;
+* {
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Header Section  */
+
+#head {
+    
+    background-color: rgb(194, 97, 55);
+    display: flex;
+    
+   
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+#headfirst {
+    justify-content: end;
+    padding-right: 20px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.headcol {
+    display: flex;
+    flex-direction: row;
+    padding: 4px 11px;
+    flex-wrap: wrap;
+  
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.headservice {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.servicename {
+    font-size: 16px;
+}
+
+.headermail {
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 23px;
+
+}
+
+.headermail a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.headservice2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    flex-wrap: wrap;
+
+
+}
+
+
+.servicename2 {
+    font-size: 16px;
+}
+
+.headermail2 {
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 23px;
+
+}
+
+.headermail2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+#headsecond {
+    padding-left: 20px;
+}
+
+
+/* Navbar section  */
+
+.navbar-nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* width: 100%; */
+    margin-left: 140px;
+   
+}
+
+#Navbar img {
+    height: 65px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.nav-item {
+    margin: 0px 20px;
+    padding: 0px 7px;
+
+}
+
+.nav-item:hover {
+
+    border-radius: 9px;
+    background-color: rgb(194, 97, 55);
+
+
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+/* Home section  */
+.carousel-item {
+    height: auto;
+}
+.carousel-item h1{
+   font-size: 40px;
+   /* padding-bottom: 130px; */
+}
+
+.carousel{
+    /* width: 100%; */
+    height: auto;
+}
+
+.carousel-item img {
+    height: 480px;
+    opacity: 0.8;
+
+}
+
+
+/* key section  */
+
+#keyfocus {
+    height: auto;
+    border-top: 3px solid white;
+    width: 100%;
+}
+
+.keyfirst {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(194, 97, 55);
+    border-right: 2px solid white;
+
+
+}
+
+.key {
+    font-size: 70px;
+    margin: 13px 1px;
+}
+
+.keyh1 {
+    font-size: 70px;
+    font-weight: bold;
+} 
+
+#keysecond {
+
+    background-image:  url("./Assets/keyback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    z-index: -1;
+    opacity: 0.7;
+    font-weight: bold;
+
+}
+
+
+#keysecond ul li {
+    font-size: 25px;
+    margin: 18px 0px;
+}
+
+
+/* different section  */
+
+#diffsection {
+    height: auto;
+    width: 100%;
+
+}
+
+#diffirst h1 {
+    padding-top: 35px;
+    padding-left: 40px;
+    font-size: 55px;
+
+
+}
+
+#diffirst p {
+
+    padding-left: 40px;
+    padding-top: 30px;
+    font-size: 17px;
+
+}
+
+#difsecond {
+    background-image: url("./Assets/different.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: 50px;
+    /* width: 50%; */
+}
+
+.why {
+
+    margin-top: 118px;
+    padding-bottom: 8px;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-color: rgb(194, 97, 55);
+    width: fit-content;
+}
+
+.different {
+    color: rgb(194, 97, 55);
+}
+
+
+
+/* process section  */
+ 
+#process{
+    height: auto;
+    width: 100%;
+    background-color: rgb(159, 157, 157);
+    padding-left: 30px;
+    
+}
+
+#process h1 {
+    padding-left: 100px;
+    margin-top: 30px;
+    font-size: 55px;
+    width: 100%;
+
+}
+.processcontain{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#processfirst {
+    height: 345px;
+    width: 360px;
+    background-color: rgb(194, 97, 55);
+    margin: 30px;
+    border-radius: 50%;
+}
+
+#processsecond {
+    height: 345px;
+    width: 360px;
+    background-color: rgb(194, 97, 55);
+    margin: 30px;
+    border-radius: 50%;
+}
+
+#processthird {
+    height: 345px;
+    width: 360px;
+    background-color: rgb(194, 97, 55);
+    margin: 30px;
+    border-radius: 50%;
+}
+
+.circleone {
+    display: flex;
+    height: 335px;
+    width: 350px;
+    border-radius: 50%;
+    background-color: white;
+    box-sizing: border-box;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+.circleone img{
+    height: 114px;
+    width: 100px;
+    padding: 9px 0px;
+    
+}
+
+
+
+
+
+
+/* responsive  */
+
+@media screen and (max-width: 665px) {
+
+    .carousel-item {
+        height: 400px;
+
+    }
+
+    .carousel-item img {
+        height: 400px;
+        opacity: 0.8;
+
+    }
+   
+    /* .nav-link{
+        justify-content: flex-end;
+       float: right;
+    } */
+
+    /* keyfocus  */
+
+    #keyfocus {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .keyfirst {
+        width: 100%;
+    }
+
+    .keyh1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .key {
+        font-size: 50px;
+        margin: 13px 1px;
+    }
+
+    #keysecond {
+        width: 100%;
+
+    }
+
+    #process{
+        padding-left: 5px;
+    }
+    #process h1{
+        padding-left: 3px;
+        margin-left: 3px;
+    }
+
+    /* different  */
+
+    #diffsection {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #diffirst {
+        width: 100%;
+    }
+
+    #difsecond {
+        /* width: 100%;
+        margin-top: 2px; */
+        display: none;
+       
+        
+    }
+    
+    
+
+}
+
+@media screen and (max-width: 1169px) {
+    #diffsection {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #diffirst {
+        width: 100%;
+    }
+    #difsecond {
+        width: 100%;
+        margin-top: 2px; 
+    }
+    #process h1{
+        padding-left: 3px;
+        margin-left: 3px;
+    }
+    
+
+}
+
+@media screen and (max-width: 1288px) {
+
+    #process {
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        
+
+
+    }
+
+    #process h1 {
+
+        text-align: center;
+
+
+    }
+
+}
+
+/* Some extra classes for responsive */
+
+.headcontent{
+    width: 99.1%;
+   
+}
+.navcontent{
+    width: 100%;
+}
+.homecontent{
+    width: 100%;
+
+}
+.keycontent{
+    width: 101%;
+    
+}
+.App{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
 }

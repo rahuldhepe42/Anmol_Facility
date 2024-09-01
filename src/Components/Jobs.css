@@ -1,0 +1,57 @@
+.Jobs{
+    width:100%;
+    height: auto;
+    padding-bottom: 19px;
+    margin-top: 10px;
+}
+
+.Jobcontainer{
+    background-image: url('../Assets/jobback1.jpg');
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.signup{
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    padding-top: 40px;
+    
+
+ }
+ .signup h3{
+    text-align: center;
+    padding: 13px 0px;
+ } 
+
+ .signup form{
+    width: 400px;
+    border: 1px solid black;
+    padding: 13px 26px;
+    border-radius: 11px;
+ }
+
+ .signup p a{
+   text-decoration: none;
+   font-size: 18px;
+   margin-top: 11px;
+ }
+ input[type="radio"]{
+   margin: 13px;
+ }
+ input[type="text"]{
+    border: 1px solid black;
+ }
+
+ .signup input{
+    border: 1px solid black;
+ }

@@ -1,0 +1,226 @@
+#AboutSection{
+    width: 100%;
+}
+
+.aboutback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+.aboutback::before{
+    content: "";
+    background-image: url('../Assets/back3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height: 300px;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+   
+    
+}
+
+.aboutback h1{
+    z-index: 1;
+    color: rgb(194, 97, 55);
+    padding: 0px 100px;
+    
+}
+
+.journey{
+    width: 100%;
+    
+}
+
+.journey h1{
+    padding-left: 20px;
+    margin-top: 35px;
+    font-size: 55px;
+    width: 100%;
+}
+.journeyheading{
+    color: rgb(194, 97, 55);
+}
+
+#journeyfirst{
+    background-image: url("../Assets/journeyfirst.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+   
+    
+    
+}
+#journeySecond{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+#journeySecond p{
+    font-size: 18px
+}
+#journeycontent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* vision mission */
+
+
+
+.visionmission{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.vision{
+    width: 40%;
+    height: 300px;
+    margin: 11px 38px;
+    border-radius: 11px;
+    background-color: rgb(4, 4, 136);
+}
+.mission{
+    width: 40%;
+    height: 300px;   
+    margin: 11px 38px;
+    border-radius: 11px;
+    background-color: rgb(4, 4, 136);
+}
+
+#visionmission h1{
+   
+        padding-left: 20px;
+        margin-top: 30px;
+        font-size: 55px;
+        width: 100%;
+    
+      
+}
+.faeye{
+    font-size: 30px;
+    color: white;
+}
+.visioncontaint{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 28px;
+}
+.vision p{
+    color: white;
+    padding: 1px 28px;
+    font-size: 20px;
+}
+.missioncontaint{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 28px;
+}
+.mission p{
+    color: white;
+    padding: 1px 28px;
+    font-size: 20px;
+}
+.mission ul{
+    color: white;
+   margin: 1px 28px;
+    font-size: 20px;
+}
+.targetarrow{
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+/* responsive  */
+
+
+@media screen and (max-width: 665px) {
+    .aboutback h1{
+        padding: 0;
+    }
+
+    .journey h1{
+        text-align: center;
+        margin-top: 13px;
+        font-size: 40px;
+    }
+    #journeyfirst{
+        width: 100%;
+        margin-top: 13px;
+        
+    }
+    #journeySecond{
+        width: 100%;
+    }
+    .vision{
+        width: 100%;
+        height: auto;
+    }
+    .mission{
+        width: 100%;
+        height: auto;
+    }
+    #visionmission{
+        height: auto;
+        
+    }
+    #visionmission h1{
+       text-align: center;
+       font-size: 40px;
+    }
+    
+
+}
+
+@media screen and (max-width: 990px) {
+    .aboutback h1{
+        padding: 0;
+    }
+    .journey h1{
+        text-align: center;
+    }
+    #journeyfirst{
+        width: 100%;
+        
+    }
+    #journeySecond{
+        width: 100%;
+    }
+    .mission{
+        width: 100%;
+    }
+    .vision{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1169px) {
+    .mission{
+        height: auto;
+    }
+    .vision{
+        height: auto;
+
+    }
+
+}
