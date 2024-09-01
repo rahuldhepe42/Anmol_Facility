@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Anmol_Facility/static/css/main.eb273f23.css",
+    "main.js": "/Anmol_Facility/static/js/main.23460db0.js",
+    "static/js/453.6223c639.chunk.js": "/Anmol_Facility/static/js/453.6223c639.chunk.js",
+    "static/media/back3.jpg": "/Anmol_Facility/static/media/back3.1208e52d7f7ef97c15fe.jpg",
+    "static/media/back1.jpg": "/Anmol_Facility/static/media/back1.aace824676dfa969fe10.jpg",
+    "static/media/keyback.jpg": "/Anmol_Facility/static/media/keyback.01215cda25f02e7a5e62.jpg",
+    "static/media/back2.jpg": "/Anmol_Facility/static/media/back2.9cbb6e206349c78cf08c.jpg",
+    "static/media/different.jpg": "/Anmol_Facility/static/media/different.187d7cce78f68967bae1.jpg",
+    "static/media/jobback1.jpg": "/Anmol_Facility/static/media/jobback1.6dde65c92fb586badb33.jpg",
+    "static/media/logo2.jpeg": "/Anmol_Facility/static/media/logo2.05d092e9d57017f6315b.jpeg",
+    "static/media/journeyfirst.jpg": "/Anmol_Facility/static/media/journeyfirst.f268b9ed0c9cc6f877ac.jpg",
+    "static/media/process1.png": "/Anmol_Facility/static/media/process1.1738695616adf15cfea7.png",
+    "static/media/back5.jpg": "/Anmol_Facility/static/media/back5.099fab120b39662a0185.jpg",
+    "index.html": "/Anmol_Facility/index.html",
+    "main.eb273f23.css.map": "/Anmol_Facility/static/css/main.eb273f23.css.map",
+    "main.23460db0.js.map": "/Anmol_Facility/static/js/main.23460db0.js.map",
+    "453.6223c639.chunk.js.map": "/Anmol_Facility/static/js/453.6223c639.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb273f23.css",
+    "static/js/main.23460db0.js"
+  ]
+}
